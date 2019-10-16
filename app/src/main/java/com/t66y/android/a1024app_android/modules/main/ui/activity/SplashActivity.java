@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
 
-import com.t66y.android.a1024app_android.MainActivity;
 import com.t66y.android.a1024app_android.R;
 
 /**
@@ -22,7 +21,7 @@ public class SplashActivity extends Activity{
 
 
         AlphaAnimation alphaAnimation = new AlphaAnimation(0.3F, 1.0F);
-        alphaAnimation.setDuration(1500);
+        alphaAnimation.setDuration(2000);
 
         alphaAnimation.setAnimationListener(new Animation.AnimationListener() {
             @Override

@@ -38,7 +38,7 @@
 
 
         <activity
-            android:name=".MainActivity"
+            android:name=".modules.main.ui.activity.MainActivity"
 
             >
 

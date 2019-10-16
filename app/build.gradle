@@ -86,7 +86,7 @@ dependencies {
     implementation rootProject.ext.dependencies["adapter-rxjava2"]
     implementation rootProject.ext.dependencies["glide"]
     annotationProcessor rootProject.ext.dependencies["glide_compiler"]
-
+    implementation rootProject.ext.dependencies["jsoup"]
     //dao
     implementation rootProject.ext.dependencies["greendao"]
 
