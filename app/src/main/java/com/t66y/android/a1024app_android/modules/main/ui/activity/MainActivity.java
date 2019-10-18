@@ -7,7 +7,7 @@ import android.webkit.WebView;
 import com.t66y.android.a1024app_android.R;
 
 public class MainActivity extends AppCompatActivity {
-
+    private static final String TAG = "MainActivity";
     //申明
     private WebView mWebView;
     @Override
